@@ -11,9 +11,7 @@ import { nextTick, onMounted, ref } from '@vue/runtime-core'
         setup(){
             const cs = ref(null)
             onMounted(()=>{
-               const cxt =  cs.value.getContext('2d');
-
-
+               const cxt =  cs.value.getContext('2d')
             })
             return{
                 cs
